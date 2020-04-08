@@ -56,14 +56,6 @@ def render_stuff():
 
     with open('README.md', 'w') as f:
         f.write(output)
-    
-    
-
-
-
-
-
-
 
 
 if __name__ == '__main__':
