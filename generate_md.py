@@ -51,7 +51,7 @@ def render_stuff():
             f.write(output)
 
     #generate index file
-    t = env.get_template('INDEX.md')
+    t = env.get_template('README.md')
     output = t.render(episodes=episodes)
 
     with open('README.md', 'w') as f:
