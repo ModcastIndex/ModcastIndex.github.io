@@ -26,12 +26,14 @@ and how to contribute, click [here](info.md).
 '''
 
 episode_template='''
-#Episode {{episode.number}}: {{episode.name}}
+Episode {{episode.number}}: {{episode.name}}
+============================================
 
-This episode is posted at {{episode.url}}. Special thanks to
+This episode is posted at [{{episode.url}}]({{episode.url}}). Special thanks to
 {{episode.archivist}} for indexing it.
 
-##Episode bookmarks
+Episode bookmarks
+---------------------
 {% for bookmark in episode.bookmarks %}
   * [{{bookmark[1]}}]({{episode.url}}&t={{bookmark[0]|tts}}s)
 {% endfor %}
