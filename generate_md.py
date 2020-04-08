@@ -14,7 +14,7 @@ def render_stuff():
     env = Environment(autoescape=False,
                       loader=DictLoader(
                           {
-                              'INDEX.md': index_template,
+                              'README.md': index_template,
                               'EPISODE.md': episode_template
                           }
                       ))
@@ -54,7 +54,7 @@ def render_stuff():
     t = env.get_template('INDEX.md')
     output = t.render(episodes=episodes)
 
-    with open('INDEX.md', 'w') as f:
+    with open('README.md', 'w') as f:
         f.write(output)
     
     
