@@ -24,8 +24,12 @@ def render_stuff():
     #OK this is where I do the programming equivalent of breaking out the duct
     #tape and JB Weld
 
-    episodes = []
+    #these might go in a configuration file at some point, idk
     basedir = 'modcasts'
+    outdir = 'docs'
+    indexname = 'README.md'
+
+    episodes = []
     files = sorted(
         [os.path.join(basedir, fname)\
          for fname in os.listdir(basedir)\
@@ -47,14 +51,15 @@ def render_stuff():
     for episode in episodes:
         t = env.get_template('EPISODE.md')
         output = t.render(episode=episode)
-        with open('{}.md'.format(episode['number']), 'w') as f:
+        full_filename = os.path.join(outdir, '{}.md'.format(episode['number']))
+        with open(full_filename, 'w') as f:
             f.write(output)
 
     #generate index file
     t = env.get_template('INDEX.md')
     output = t.render(episodes=episodes)
 
-    with open('INDEX.md', 'w') as f:
+    with open(os.path.join(outdir, indexname), 'w') as f:
         f.write(output)
     
     
