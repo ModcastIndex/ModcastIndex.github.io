@@ -13,4 +13,6 @@ and how to contribute, click [here](info.md).
 Episodes
 --------------------
 
+  * [95 Gun Nerds 2: The Revenge](95.md)
+
   * [126 The Gauge](126.md)
