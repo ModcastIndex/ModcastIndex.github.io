@@ -15,4 +15,6 @@ Episodes
 
   * [95 Gun Nerds 2: The Revenge](95.md)
 
+  * [97 Gun Nerds 3: US Military Weapons](97.md)
+
   * [126 The Gauge](126.md)
