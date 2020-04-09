@@ -34,3 +34,5 @@ Episodes
   * [152 Pistol Caliber Carbines](152.md)
 
   * [187 Gun Nerds 16: The Battle Rifle](187.md)
+
+  * [188 Stop The Bleed](188.md)
