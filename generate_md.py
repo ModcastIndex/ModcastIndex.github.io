@@ -8,6 +8,11 @@ from templates import episode_template, index_template
 from utils import timestamp_to_seconds
 import json
 import os
+import re
+
+def modcast_sort_key(file_path):
+    m = re.search('(\d+)\.json', file_path)
+    return int(m.group(1))
 
 def render_stuff():
     #TODO: write autoescape functionality for markdown
@@ -30,7 +35,7 @@ def render_stuff():
         [os.path.join(basedir, fname)\
          for fname in os.listdir(basedir)\
          if fname.endswith('json')],
-        reverse=True
+        key=modcast_sort_key
     )
 
     #read json files from basedir ('modcasts')
