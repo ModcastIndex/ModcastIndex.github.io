@@ -25,4 +25,6 @@ Episodes
 
   * [107 Gun Nerds 8: 308 Gas Guns](107.md)
 
+  * [108 Gun Nerds 9: Gun Nerds in Paradise](108.md)
+
   * [126 The Gauge](126.md)
