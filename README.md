@@ -21,4 +21,6 @@ Episodes
 
   * [103 Gun Nerds 6: 5.56 Vs .308 (and Other Silly Interim Ideas)](103.md)
 
+  * [105 Gun Nerds 7: Squad Support Weapons](105.md)
+
   * [126 The Gauge](126.md)
