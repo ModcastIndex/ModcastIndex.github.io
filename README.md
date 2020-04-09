@@ -19,4 +19,6 @@ Episodes
 
   * [99 Gun Nerds 4: Commie Weapons](99.md)
 
+  * [103 Gun Nerds 6: 5.56 Vs .308 (and Other Silly Interim Ideas)](103.md)
+
   * [126 The Gauge](126.md)
