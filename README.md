@@ -30,3 +30,5 @@ Episodes
   * [125 Terminal Ballistics](125.md)
 
   * [126 The Gauge](126.md)
+
+  * [152 Pistol Caliber Carbines](152.md)
