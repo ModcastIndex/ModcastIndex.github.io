@@ -36,3 +36,5 @@ Episodes
   * [187 Gun Nerds 16: The Battle Rifle](187.md)
 
   * [188 Stop The Bleed](188.md)
+
+  * [193 Primary Weapon Systems](193.md)
