@@ -29,7 +29,8 @@ def render_stuff():
     files = sorted(
         [os.path.join(basedir, fname)\
          for fname in os.listdir(basedir)\
-         if fname.endswith('json')]
+         if fname.endswith('json')],
+        reverse=True
     )
 
     #read json files from basedir ('modcasts')
