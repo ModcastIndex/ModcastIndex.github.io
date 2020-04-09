@@ -17,4 +17,6 @@ Episodes
 
   * [97 Gun Nerds 3: US Military Weapons](97.md)
 
+  * [99 Gun Nerds 4: Commie Weapons](99.md)
+
   * [126 The Gauge](126.md)
