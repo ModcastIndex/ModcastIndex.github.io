@@ -27,6 +27,8 @@ Episodes
 
   * [108 Gun Nerds 9: Gun Nerds in Paradise](108.md)
 
+  * [117 Holster Literacy](117.md)
+
   * [125 Terminal Ballistics](125.md)
 
   * [126 The Gauge](126.md)
